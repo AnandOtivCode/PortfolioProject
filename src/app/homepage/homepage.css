@@ -1,0 +1,61 @@
+.titles .typewriter {
+  display: block;             /* allow vertical stacking */
+  text-align: center;         /* center the lines horizontally */
+}
+
+/* Used this for animation : https://www.youtube.com/watch?v=fTOcWMD_5pk&list=LL&index=1 */
+
+
+
+h1{
+  font-size:4em;
+  font-family: "Ultra", serif;
+  text-align: center;
+}
+
+.typewriter h2 {
+
+  font-family: "Doto", sans-serif;
+  font-size: 3em;
+  overflow: hidden;
+  white-space: nowrap;
+  /* Used to make cursor*/
+  border-right: 1px solid;
+}
+
+/* First line animation */
+.typewriter .line1 {
+  animation: typing1 3s steps(20) forwards,
+  blink 1s 3s step-end;
+  /* hides the text*/
+  width: 0;
+}
+
+/* Second Line Animation*/
+.typewriter .line2 {
+  animation: typing2 3s steps(20) forwards 3s,
+  blink 1s 6s step-end ;
+  /* hides the text*/
+  width: 0;
+}
+
+@keyframes typing1 {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+@keyframes typing2 {
+  from {
+    width: 0;
+  }
+  to   {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
