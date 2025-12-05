@@ -5,7 +5,7 @@ import {
   MatCardContent,
   MatCardHeader,
   MatCardSubtitle,
-  MatCardTitle
+  MatCardTitle, MatCardTitleGroup
 } from '@angular/material/card';
 
 @Component({
@@ -16,7 +16,8 @@ import {
     MatCardTitle,
     MatCardSubtitle,
     MatCardContent,
-    MatCardActions
+    MatCardActions,
+    MatCardTitleGroup
   ],
   templateUrl: './projects.html',
   styleUrl: './projects.css',
