@@ -8,7 +8,7 @@ import {
   MatCardTitle, MatCardTitleGroup
 } from '@angular/material/card';
 import {MatButton} from '@angular/material/button';
-
+import {ScrollingModule} from '@angular/cdk/scrolling';
 @Component({
   selector: 'app-projects',
   imports: [
@@ -20,7 +20,8 @@ import {MatButton} from '@angular/material/button';
     MatCardActions,
     MatCardTitleGroup,
     MatButton,
-    MatCardImage
+    MatCardImage,
+    ScrollingModule
   ],
   templateUrl: './projects.html',
   styleUrl: './projects.css',
