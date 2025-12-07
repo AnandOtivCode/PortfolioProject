@@ -14,6 +14,14 @@ body{
   margin-top:10vh;
 }
 
+h3{
+  font-size: 1.2em;
+}
+
+p{
+  font-size:1em;
+}
+
 
 
 
@@ -23,7 +31,7 @@ body{
   font-size:1.4em;
   color:black;
   margin-left:1em;
-  margin-right: 1em;
+  margin-right:1em;
 
 
 }
@@ -37,10 +45,77 @@ body{
 }
 
 mat-icon {
-  /*font-size: 100px;*/
-  /*margin: 0 auto;*/
-  /*text-align: center;*/
-  /*width:100px;*/
-  /*height:100px;*/
+  color: #1b2735;
+  font-size: 8vh;
+  width:8vh;
+  height:8vh;
+}
+
+p{
+  margin-left:2em;
+  margin-right:2em;
+}
+
+.social{
+  display: flex;
+  align-items: center; /* vertically align text + icon */
+
+
+}
+
+
+.social img {
+  margin-right: 3em;
+  margin-left:3em;
+  width: 5vh;
+  height: auto;
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+  body{
+    font-size: 0.8em;
+  }
+  .introduction{
+    font-size: 1.5em;
+  }
+
+
+
+  h3{
+    font-size: 1.1em;
+
+  }
+
+  p{
+    font-size:0.9em;
+  }
+
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+
+  body{
+    font-size: 0.75em;
+  }
+  .introduction{
+    font-size: 1.4em;
+  }
+
+
+
+  h3{
+    font-size: 1em;
+
+  }
+
+  p{
+    font-size:0.85em;
+  }
 
 }

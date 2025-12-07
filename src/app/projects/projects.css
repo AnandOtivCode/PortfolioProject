@@ -1,22 +1,13 @@
-/*.example-card {*/
-/*  !*max-width: 400px;*!*/
-/*  width:45%;*/
-/*  object-fit: contain;*/
-/*  !*width : 100%;*!*/
 
-/*  margin-bottom: 8px;*/
-/*  margin-right: 2em;*/
-
-/*}*/
 
 /* Style all mat-card images */
 img[mat-card-image] {
-  width: 90%;              /* take up 90% of card width */
-  height: auto;            /* keep proportions */
-  object-fit: contain;     /* prevent stretching */
+  width: 90%;
+  height: auto;
+  object-fit: contain;
   display: block;
-  margin: 0 auto;          /* center image horizontally */
-  max-height: 50vh;       /* control tall images */
+  margin: 0 auto;
+  max-height: 50vh;
 }
 
 .example-card{
@@ -28,37 +19,59 @@ body{
   /*opacity: 0.8;*/
   /*background: linear-gradient(135deg, #f7454555 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #f74545 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #f7454555 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #f74545 25%, #e5e5f7 25%) 0px 0/ 20px 20px;*/
   min-height: 100vh;
+}
 
+.body{
+  font-size:1.6em;
 }
 
 p {
   background-color: blanchedalmond;
-  margin-top: 2.5em;
-  font-size: 2.4em;
+  margin-top: 1em;
+  font-size: 1.5em;
   font-family: "Indie Flower", cursive;
   font-weight: 400;
+
+}
+
+@media screen and (max-width: 900px) {
+
+  .example-card{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .body{
+    font-size:1.3em;
+  }
+
+  p{
+    font-size:1.2em;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .example-card{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .body{
+    font-size:1.2em;
+  }
+
+  p{
+    font-size:1.1em;
+  }
+
 }
 
 
 
 
-/*main{*/
-/*  display:flex;*/
-/*  flex-wrap:wrap;*/
 
-/*}*/
-
-
-
-
-
-/*.example-header-image {*/
-/*  background-image: url('https://material.angular.dev/assets/img/examples/shiba1.jpg');*/
-/*  background-size: cover;*/
-/*}*/
-
-
-/*.scrollableImage{*/
-/*  overflow-x:auto;*/
-/*  */
-/*}*/
