@@ -16,8 +16,6 @@ img[mat-card-image] {
 }
 body{
   background-color: #e5e5f7;
-  /*opacity: 0.8;*/
-  /*background: linear-gradient(135deg, #f7454555 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #f74545 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #f7454555 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #f74545 25%, #e5e5f7 25%) 0px 0/ 20px 20px;*/
   min-height: 100vh;
 }
 

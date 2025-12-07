@@ -1,10 +1,4 @@
 
-/*main {*/
-/*  background-color: #e5e5f7;*/
-
-/*  background: linear-gradient(135deg, #d01b4655 25%, transparent 25%) -21px 0/ 42px 42px, linear-gradient(225deg, #d01b46 25%, transparent 25%) -21px 0/ 42px 42px, linear-gradient(315deg, #d01b4655 25%, transparent 25%) 0px 0/ 42px 42px, linear-gradient(45deg, #d01b46 25%, #e5e5f7 25%) 0px 0/ 42px 42px;*/
-/*  min-height: 100vh;*/
-/*}*/
 
 
 
@@ -12,21 +6,18 @@
 
 .titles .typewriter {
   background:green;
-  display: block;             /* allow vertical stacking */
-  text-align: center;         /* center the lines horizontally */
+  display: block;
+  text-align: center;
 }
 
-/* Used this for animation : https://www.youtube.com/watch?v=fTOcWMD_5pk&list=LL&index=1 */
-
-
+/* Used this for  the typewriter animation : https://www.youtube.com/watch?v=fTOcWMD_5pk&list=LL&index=1 */
 
 h1{
   background:green;
   font-size:4em;
   font-family: "Ultra", serif;
   text-align: center;
-  /*margin-bottom:0;*/
-  /*margin-top:0*/
+
 }
 
 .typewriter h2 {
@@ -116,10 +107,14 @@ h1{
   box-sizing: border-box;
 }
 
+
+
+/*Sourced CSS Animation From Here:
+https://codepen.io/delroyprithvi/pen/LYyJROR*/
 main {
   min-height: 150vh;
   background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
-  /*overflow: hidden;*/
+
 
 }
 
