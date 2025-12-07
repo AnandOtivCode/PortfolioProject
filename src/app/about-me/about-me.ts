@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import {MatCardModule} from '@angular/material/card';
 import {MatTab, MatTabGroup} from '@angular/material/tabs';
+import {MatIconModule} from '@angular/material/icon';
+import {Navbar} from '../navbar/navbar';
 
 
 
 @Component({
   selector: 'app-about-me',
-  imports: [MatCardModule, MatTab, MatTabGroup],
+  imports: [MatCardModule, MatTab, MatTabGroup, MatIconModule, Navbar],
   templateUrl: './about-me.html',
   styleUrl: './about-me.css',
 })

@@ -1,11 +1,11 @@
-<p>projects works!</p>
 
 
-
+<html>
+<body>
 
 <main>
 
-
+  <app-navbar></app-navbar>
 
 
 
@@ -26,83 +26,109 @@
 
 
 
+  <mat-tab-group>
+
+<!--    1.-->
+    <mat-tab label="SnowPainting">
+      <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+<!--          <mat-card-title>Watercolor</mat-card-title>-->
+<!--          <mat-card-subtitle>Snow Painting</mat-card-subtitle>-->
+        </mat-card-header>
+
+        <img mat-card-image src="/Images/snowPainting.png" alt="snowPainting">
+        <mat-card-content>
+          <p>
+            One of my most recent creations in watercolor. This was actually created using a references I found in watercolor magazines
+            along with a bit of my own twist with how I enjoy the lighting. I am a big fan of the winter season and really enjoy
+            how snow decorates nature.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </mat-tab>
+
+<!--    2. -->
+
+    <mat-tab label="Bird In Snow Painting">
+
+      <!--  Project 2 Bird In Snow Painting-->
+      <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+<!--          <mat-card-title>Watercolor</mat-card-title>-->
+<!--          <mat-card-subtitle>Birds In Snow Painting</mat-card-subtitle>-->
+        </mat-card-header>
+        <img mat-card-image src="/Images/birds400x265.png" alt="snowPainting">
+        <mat-card-content>
+          <p>
+            One of my older paintings from when I first started painting. This was where I got to have fun with two favourite things, birds and snow.
+            I always find the need to challenge myself and in this painting I had to tackle the strange colors of a metal fountain contrasted with
+            the background of the winter outdoors.
+          </p>
+        </mat-card-content>
+      </mat-card>
 
 
-
-  <!--  Project 1 Snow Painting-->
-  <mat-card class="example-card" appearance="outlined">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>Watercolor</mat-card-title>
-      <mat-card-subtitle>Snow Painting</mat-card-subtitle>
-    </mat-card-header>
-    <img mat-card-image src="/Images/snowPainting.png" alt="snowPainting">
-    <mat-card-content>
-      <p>
-        One of my most recent creations in watercolor. This was actually created using a references I found in watercolor magazines
-        along with a bit of my own twist with how I enjoy the lighting. I am a big fan of the winter season and really enjoy
-        how snow decorates nature.
-      </p>
-    </mat-card-content>
-  </mat-card>
-
-
-  <!--  Project 2 Bird In Snow Painting-->
-  <mat-card class="example-card" appearance="outlined">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>Watercolor</mat-card-title>
-      <mat-card-subtitle>Birds In Snow Painting</mat-card-subtitle>
-    </mat-card-header>
-    <img mat-card-image src="/Images/birds400x265.png" alt="snowPainting">
-    <mat-card-content>
-      <p>
-        One of my older paintings from when I first started painting. This was where I got to have fun with two favourite things, birds and snow.
-        I always find the need to challenge myself and in this painting I had to tackle the strange colors of a metal fountain contrasted with
-        the background of the winter outdoors.
-      </p>
-    </mat-card-content>
-  </mat-card>
-
-
-
-  <!-- Project 3 SwiftUIApp-->
-  <mat-card class="example-card" appearance="outlined">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>Swift UI App</mat-card-title>
-      <mat-card-subtitle>St Clair "Mobile App Development" App</mat-card-subtitle>
-    </mat-card-header>
-
-      <img mat-card-image src="/Images/swiftUIApp.png" alt="swiftUIApp">
+    </mat-tab>
 
 
 
 
-    <mat-card-content>
-      <p>
-        This was actually my final take home project for when I took an IOS Development course. This program
-        displayed all the Courses in each section in the mobile app development program. You could also track what courses u have taken.
-      </p>
-    </mat-card-content>
-  </mat-card>
+    <mat-tab label="Swift-UI App">
+      <!-- Project 3 SwiftUIApp-->
+      <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+<!--          <mat-card-title>Swift UI App</mat-card-title>-->
+<!--          <mat-card-subtitle>St Clair "Mobile App Development" App</mat-card-subtitle>-->
+        </mat-card-header>
+
+        <img mat-card-image src="/Images/swiftUIApp.png" alt="swiftUIApp">
+        <mat-card-content>
+          <p>
+          This was actually my final take home project for when I took an IOS Development course. This program
+          displayed all the Courses in each section in the mobile app development program. You could also track what courses u have taken.
+          </p>
+        </mat-card-content>
+
+      </mat-card>
+    </mat-tab>
 
 
-    <!--  Project 4 Diep.io Game -->
-  <mat-card class="example-card" appearance="outlined">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>Shiba Inu</mat-card-title>
-      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-    </mat-card-header>
-    <img mat-card-image src="/Images/diepio450x339.png" alt="JavaSwingGame">
-    <mat-card-content>
-      <p>
-        This was actually a clone of Diep.io i attempted to recreate in JavaSwing. It was where I learned how to use object
-        oriented programming to simplify game elements. I also experimented with very barebones AI as I implemented an enemy tracking
-        u using your x and y coordinated  on the map. Luckily game engines exists, and this is one of the games I'd like to remake in unity.
-      </p>
-    </mat-card-content>
-  </mat-card>
+
+
+
+
+    <mat-tab label="Diep.Io Clone">
+
+      <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+<!--          <mat-card-title>Shiba Inu</mat-card-title>-->
+<!--          <mat-card-subtitle>Dog Breed</mat-card-subtitle>-->
+        </mat-card-header>
+        <img mat-card-image src="/Images/diepio450x339.png" alt="JavaSwingGame">
+        <mat-card-content>
+          <p>
+            This was actually a clone of Diep.io i attempted to recreate in JavaSwing. It was where I learned how to use object
+            oriented programming to simplify game elements. I also experimented with very barebones AI as I implemented an enemy tracking
+            u using your x and y coordinated  on the map. Luckily game engines exists, and this is one of the games I'd like to remake in unity.
+          </p>
+        </mat-card-content>
+      </mat-card>
+
+
+    </mat-tab>
+
+
+
+  </mat-tab-group>
+
+
+
 
 </main>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+/* Navigation Styles*/
+/*main {*/
+/*  background-color: #e5e5f7;*/
+
+/*  background: linear-gradient(135deg, #d01b4655 25%, transparent 25%) -21px 0/ 42px 42px, linear-gradient(225deg, #d01b46 25%, transparent 25%) -21px 0/ 42px 42px, linear-gradient(315deg, #d01b4655 25%, transparent 25%) 0px 0/ 42px 42px, linear-gradient(45deg, #d01b46 25%, #e5e5f7 25%) 0px 0/ 42px 42px;*/
+/*  !*min-height: 100vh;*!*/
+/*}*/
+
+nav {
+  font-size: 3.0em;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 100;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+  /*margin-bottom: 2.2em;*/
+}
+
+/*Navigation Anchor Styles*/
+
+nav a {
+  display: block;
+  color: rgb(141, 221, 104);
+
+  background-color: black;
+  padding: .3em .2em;
+
+  text-decoration: none;
+
+  background-clip: padding-box;
+  border-style: solid;
+  border-width: .1em;
+  border-color: transparent;
+}
+
+/*Selects all li elements in the navigation*/
+
+/*Navigation List Element Styles*/
+nav li {
+  float: left;
+  list-style-type: none;
+  width: 18%;
+  position: relative;
+}
+
+li:hover>a {
+  background-color: rgb(159, 87, 87);
+}
+
+/*Responsive Styles*/
+
+@media screen and (max-width: 1250px) {
+
+
+  nav {
+    font-size: 1.9em;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 2em
+  }
+
+  nav li {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 550px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6em;
+  }
+
+  nav li {
+    width: 100%;
+  }
+
+}
